@@ -25,7 +25,7 @@ SECRET_KEY = 'b6%5_v5sqv(^tkg%2)7xon98w)s3(5t9yf6xn__k25)f0hceck'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['meds.streetflow.cl']
+ALLOWED_HOSTS = ['meds.streetflow.cl', '127.0.0.1']
 
 
 # Application definition

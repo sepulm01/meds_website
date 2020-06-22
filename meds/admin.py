@@ -35,7 +35,7 @@ class PacienteAdmin(admin.ModelAdmin):
     fieldsets = (
         ('REQUERIMIENTO', {
                             #'fields': ('autor','estado','operador',( 'tipo','clasifi', 'urgencia'),
-                            'fields': ('nombre', 'apellido','rut', 'edad','sexo','fono','sangre','direccion'),},),
+                            'fields': ('nombre', 'apellido','rut', 'edad','sexo','fono','sangre','direccion','pais','region','provincia','comuna'),},),
         )
 
 #admin.site.register(Pais)
