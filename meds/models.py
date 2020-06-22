@@ -26,9 +26,9 @@ class Paciente(models.Model):
   edad = models.IntegerField("Edad", default=0)
   sexo = models.CharField("Sexo",choices=SEX ,max_length=8)
   direccion = models.CharField("direccion",max_length=100)
-  pais = models.ForeignKey('Pais',on_delete=models.PROTECT)
-  region = models.ForeignKey('Region',on_delete=models.PROTECT)
-  comuna = models.ForeignKey('Comuna',on_delete=models.PROTECT)
+  #pais = models.ForeignKey('Pais',on_delete=models.PROTECT)
+  #region = models.ForeignKey('Region',on_delete=models.PROTECT)
+  #comuna = models.ForeignKey('Comuna',on_delete=models.PROTECT)
   fono = models.CharField("Fono",max_length=12)
   sangre = models.CharField("sangre",choices=TIPO ,max_length=10)
   
